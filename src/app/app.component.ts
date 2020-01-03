@@ -5,7 +5,6 @@ import { BrowserModule }    from '@angular/platform-browser';
 import { HttpClientModule } from '@angular/common/http';
 import { from } from 'rxjs';
 import { Response, Headers, RequestOptions } from '@angular/http'
-
 import { map, filter, debounceTime, distinctUntilChanged, switchMap } from 'rxjs/operators';
 
 import 'rxjs/add/operator/debounceTime';
@@ -21,7 +20,7 @@ import 'rxjs/add/operator/map';
   styleUrls: [ './app.component.css' ]
 })
 export class AppComponent  {
-  //name = 'Staff Name';
+  name = 'Staff Name';
   //name = 
   httpdata;
   constructor(private http: Http) { }
