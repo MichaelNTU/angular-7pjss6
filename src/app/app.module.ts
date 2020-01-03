@@ -11,7 +11,7 @@ import { HttpModule } from '@angular/http';
 @NgModule({
   imports:      [ BrowserModule, FormsModule, BrowserAnimationsModule,
       HttpModule ],
-  declarations: [ AppComponent, ],//HelloComponent ],
+  declarations: [ AppComponent, ],HelloComponent ],
   bootstrap:    [ AppComponent ],
   providers: []
 })
